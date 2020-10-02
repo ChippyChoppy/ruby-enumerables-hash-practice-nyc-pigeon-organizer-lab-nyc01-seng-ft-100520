@@ -1,3 +1,3 @@
 def nyc_pigeon_organizer(data)
-  resu
+  data.each_with_object({}) do |(key, value)
 end
