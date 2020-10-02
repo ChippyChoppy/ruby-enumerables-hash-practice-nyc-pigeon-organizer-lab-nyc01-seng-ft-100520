@@ -12,6 +12,6 @@ def nyc_pigeon_organizer(data)
       pidge_id[name][key]<< (key_2.to_s)
     end
   end
-  binding.pry 
+ # binding.pry 
 end
 end
