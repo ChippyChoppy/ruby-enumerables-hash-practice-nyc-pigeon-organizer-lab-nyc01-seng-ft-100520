@@ -1,3 +1,4 @@
+require 'pry'
 def nyc_pigeon_organizer(data)
   data.each_with_object({}) do |(key, value), pidge_id|
     value.collect do |key_2, value_2|
@@ -11,5 +12,6 @@ def nyc_pigeon_organizer(data)
       pidge_id[name][key]<< (key_2.to_s)
     end
   end
+  binding.pry 
 end
 end
